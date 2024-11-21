@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e14a8e92-ba62-452d-8067-c0a1a4db3662" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2p7SFci1Ee5x6MJkZfFJ2IH9k83" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CustomerServiceTest.executor": "Run",
+    "JUnit.CustomerServiceTest.testThatCustomerCanDeposit.executor": "Run",
+    "JUnit.WalletApplicationTests.contextLoads.executor": "Run",
+    "JUnit.WalletServiceTest.executor": "Run",
+    "JUnit.WalletServiceTest.testCanDepositIntoWallet.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.WalletApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/OWNER/Desktop/wallet/wallet/src/main/java/africa/payflex/wallet",
+    "last_opened_file_path": "C:/Users/OWNER/Desktop/wallet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.payflex.wallet.exceptions" />
+      <recent name="africa.payflex.wallet.models" />
+      <recent name="africa.payflex.wallet.dtos.requests" />
+      <recent name="africa.payflex.wallet.dtos" />
+      <recent name="africa.payflex.wallet.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WalletServiceTest.testCanDepositIntoWallet">
+    <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.payflex.wallet.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.payflex.wallet.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.payflex.wallet.services.CustomerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.testThatCustomerCanDeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.payflex.wallet.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.payflex.wallet.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.payflex.wallet.services.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="testThatCustomerCanDeposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.payflex.wallet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.payflex.wallet" />
+      <option name="MAIN_CLASS_NAME" value="africa.payflex.wallet.WalletApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.payflex.wallet.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.payflex.wallet.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.payflex.wallet.services.WalletServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletServiceTest.testCanDepositIntoWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.payflex.wallet.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.payflex.wallet.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.payflex.wallet.services.WalletServiceTest" />
+      <option name="METHOD_NAME" value="testCanDepositIntoWallet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="wallet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.payflex.wallet.WalletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WalletServiceTest.testCanDepositIntoWallet" />
+        <item itemvalue="JUnit.WalletServiceTest" />
+        <item itemvalue="JUnit.CustomerServiceTest" />
+        <item itemvalue="JUnit.CustomerServiceTest.testThatCustomerCanDeposit" />
+        <item itemvalue="JUnit.WalletApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e14a8e92-ba62-452d-8067-c0a1a4db3662" name="Changes" comment="" />
+      <created>1732115519307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732115519307</updated>
+      <workItem from="1732115523078" duration="14680000" />
+      <workItem from="1732171692530" duration="2266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
