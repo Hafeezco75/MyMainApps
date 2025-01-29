@@ -12,6 +12,17 @@ public class Times {
         this.second = second;
     }
 
+    public void Time(int hour, int minute) {
+        validateTimeWith(hour,minute,0);
+    }
+
+    public void Timer(int minute, int second) {
+        validateTimeWith(minute,second,0);
+    }
+
+    public void Time() {
+    }
+
     private void validateTimeWith(int hour, int minute, int second) {
         validateHourWith(hour);
         validateMinuteWith(minute);

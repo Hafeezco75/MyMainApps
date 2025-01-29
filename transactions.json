@@ -1,0 +1,30 @@
+[{
+  "id": 1,
+  "amount": 500.00,
+  "description": "A fasttrack transaction ",
+  "sender": "John",
+  "recipient": "Jane",
+  "date": "2024-10-12"
+},
+{
+  "id": 2,
+  "sender": "Jonathan",
+  "recipient": "Jackson",
+  "amount": 1000.00,
+  "date": "2024-11-10"
+},
+{
+  "id": 3,
+  "sender": "John",
+  "recipient": "Janet",
+  "amount": 300.00,
+  "date": "2023-09-11"
+},
+  {
+    "id": 4,
+    "sender": "Ebere",
+    "recipient": "Johnson",
+    "amount": 800.00,
+    "date": "2022-03-11"
+  }
+]

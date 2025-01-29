@@ -1,6 +1,6 @@
-public class Television {
+public class Televisions {
 
-    public Television() {
+    public Televisions() {
     }
     boolean TvIsOn = false;
     boolean TvIsOff = false;

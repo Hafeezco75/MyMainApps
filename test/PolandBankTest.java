@@ -34,6 +34,15 @@ public class PolandBankTest {
     }
 
     @Test
+    public void testThatCustomerCanDepositMoneyIntoBank(){
+        PolandBank bank = new PolandBank();
+        bank.addCustomer("John Felix", "2423","08123456789");
+        assertEquals(1, bank.getNumberOfCustomers());
+        bank.deposit("8123456789",2_000);
+        assertEquals(3_000,bank.checkBalanceFor("8123456789","2423"));
+    }
+
+    @Test
     public void testThatCustomerCanWithdrawMoneyFromBank() {
         PolandBank bank = new PolandBank();
         bank.addCustomer("John Felix", "2423", "08123456789");

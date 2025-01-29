@@ -19,7 +19,7 @@ public class AccountsTest {
     @Test
     public void testThatAccountUserHasNoAccountNumber() {
         Accounts accounts = new Accounts();
-        assertEquals(0, accounts.getAccountNumber());
+        assertEquals(null, accounts.getAccountNumber());
     }
 
     @Test
@@ -43,8 +43,8 @@ public class AccountsTest {
         accounts.createAccountName("Emeka Samson", "1321");
         assertEquals("Emeka Samson", accounts.getAccountName());
         accounts.deposit(2_000);
-        accounts.withdraw(3_000, "1321");
-        assertEquals(2_000, accounts.checkBalance("1321"));
+        accounts.withdraw(200, "1321");
+        assertEquals(1_800, accounts.checkBalance("1321"));
     }
 
 }

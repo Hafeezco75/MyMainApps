@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PolandBank {
     private Accounts account;
-    private ArrayList<Accounts> accounts = new ArrayList<>();
+    private final ArrayList<Accounts> accounts = new ArrayList<>();
     private int noOfCustomers;
 
 
@@ -20,9 +20,11 @@ public class PolandBank {
     }
 
     private void findAccountWith(String accountNumber) {
-        for (Accounts account : accounts) {
-            generateAccountNumber(accountNumber);
-            System.out.println("Account number does not exist");
+        for (int count = 0; count < accounts.size(); count++) {
+            if (accounts.get(count).getAccountNumber().equals(accountNumber)) {
+                account = accounts.get(count);
+            }
+            throw new IllegalArgumentException("Account number does not exist");
         }
     }
 

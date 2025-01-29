@@ -7,10 +7,13 @@ private String pin;
 private int balance;
 private String accountNumber;
 
+public Accounts(){
+}
 
-    public void createAccountName(String accountName, String pin) {
+    public void createAccountName(String accountName,String pin) {
         this.accountName = accountName;
         this.pin = pin;
+        this.accountNumber = accountNumber;
     }
 
     public String getAccountName() {
@@ -32,13 +35,7 @@ private String accountNumber;
     }
 
     public void withdraw(int amount, String pin) {
-        if (amount < balance) balance -= amount;
-        else System.out.println("Incorrect pin");
-        validatePinForWithdraw(pin,amount);
-    }
-
-    public void validatePinForWithdraw(String Pin, int amount) {
-        if (pin.equals(this.pin)) balance -= amount;
-        else System.out.println("Incorrect pin,Input the correct pin");
+        if (pin.equals(this.pin) && (amount <= balance)) balance -= amount;
+        else throw new IllegalArgumentException("Insufficient balance");
     }
 }

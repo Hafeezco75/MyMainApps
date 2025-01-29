@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Admin extends Users {
 
-    private List<Product> productList = new ArrayList<Product>();
+    private final List<Product> productList = new ArrayList<Product>();
 
     public void addProduct(int productId,String productName, int price, String productDescription){
         Product product = new Product();

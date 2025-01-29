@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="Go" enabled="true" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -8,6 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/ElecronicStore" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EstoreApp" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/ProblemApp" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TurtleGraphics" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TelevisionSet" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Reflections" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ListsTest" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -34,6 +39,50 @@
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/Jackson jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Desktop/Jackson jar" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/osgi/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/osgi/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-examples/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-examples/src/main/ruby/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-examples/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-excelant/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-excelant/src/poi-ant-contrib/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-excelant/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-integration/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-ooxml-lite-agent/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-ooxml/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-ooxml/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-scratchpad/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi-scratchpad/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/POI Jar File/apache-poi-src-5.3.0-20240625/poi/src/test/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/Jackson Date" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Desktop/Jackson Date" recursive="false" />
       </library>
     </orderEntry>
   </component>
